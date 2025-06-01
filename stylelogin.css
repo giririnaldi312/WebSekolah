@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1af16d;
+    background: url(gambar\ sekolah.jpg);
+    
+}
+section {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: green;
+}
+
+.inputbox {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.inputbox input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 15px;
+    border: 1px solid rgb(109, 204, 109);
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+    background-color: transparent;
+}
+
+.inputbox input:focus {
+    border-color: #6c63ff;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.3s;
+    color: #ecd5d5;
+    font-size: 16px;
+}
+
+.inputbox input:focus + label,
+.inputbox input:not(:placeholder-shown) + label {
+    top: -5px;
+    left: 10px;
+    background-color: white;
+    padding: 0 5px;
+    font-size: 12px;
+    color: #8681ec;
+}
+
+.forget {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: green;
+}
+
+.forget label {
+    font-size: 14px;
+    color: #555;
+}
+
+.forget a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.forget a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #52f352;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #52f352;
+}
+
+.register {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.register p {
+    font-size: 14px;
+    color: #555;
+}
+
+.register a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}

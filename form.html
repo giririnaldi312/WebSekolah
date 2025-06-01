@@ -1,0 +1,156 @@
+<section id="pendaftaran">
+    <h2>Formulir Pendaftaran</h2>
+    <form action="#" method="post" class="form-pendaftaran">
+        <h3>Data Pribadi</h3>
+        <link rel="stylesheet" href="styleform.css">
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap Anda" required>
+
+        <label for="jenis_kelamin">Jenis Kelamin:</label>
+        <select id="jenis_kelamin" name="jenis_kelamin" required>
+            <option value="" disabled selected>Pilih Jenis Kelamin</option>
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+        </select>
+
+        <label for="tempat_lahir">Tempat Lahir:</label>
+        <input type="text" id="tempat_lahir" name="tempat_lahir" placeholder="Masukkan tempat lahir Anda" required>
+
+        <label for="tanggal_lahir">Tanggal Lahir:</label>
+        <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+
+        <label for="agama">Agama:</label>
+        <select id="agama" name="agama" required>
+            <option value="" disabled selected>Pilih Agama</option>
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Katolik">Katolik</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Buddha">Buddha</option>
+            <option value="Konghucu">Konghucu</option>
+        </select>
+
+        <label for="kewarganegaraan">Kewarganegaraan:</label>
+        <input type="text" id="kewarganegaraan" name="kewarganegaraan" placeholder="Masukkan kewarganegaraan Anda" required>
+
+        <label for="nomor_handphone">Nomor Handphone:</label>
+        <input type="tel" id="nomor_handphone" name="nomor_handphone" placeholder="Masukkan nomor handphone Anda" required>
+
+        <h3>Data Alamat</h3>
+        <label for="rt">RT:</label>
+        <input type="text" id="rt" name="rt" placeholder="Masukkan RT" required>
+
+        <label for="rw">RW:</label>
+        <input type="text" id="rw" name="rw" placeholder="Masukkan RW" required>
+
+        <label for="dusun">Dusun:</label>
+        <input type="text" id="dusun" name="dusun" placeholder="Masukkan Dusun" required>
+
+        <label for="kampung">Kampung:</label>
+        <input type="text" id="kampung" name="kampung" placeholder="Masukkan Kampung" required>
+
+        <label for="kelurahan">Kelurahan:</label>
+        <input type="text" id="kelurahan" name="kelurahan" placeholder="Masukkan Kelurahan" required>
+
+        <label for="kecamatan">Kecamatan:</label>
+        <input type="text" id="kecamatan" name="kecamatan" placeholder="Masukkan Kecamatan" required>
+
+        <label for="kabupaten">Kabupaten/Kota:</label>
+        <input type="text" id="kabupaten" name="kabupaten" placeholder="Masukkan Kabupaten/Kota" required>
+
+        <label for="provinsi">Provinsi:</label>
+        <input type="text" id="provinsi" name="provinsi" placeholder="Masukkan Provinsi" required>
+
+        <label for="kode_pos">Kode Pos:</label>
+        <input type="text" id="kode_pos" name="kode_pos" placeholder="Masukkan Kode Pos" required>
+
+        <h3>Data Orang Tua</h3>
+        <label for="nama_orangtua">Nama Orang Tua:</label>
+        <input type="text" id="nama_orangtua" name="nama_orangtua" placeholder="Masukkan nama orang tua" required>
+
+        <label for="nik_orangtua">NIK/Nomor KTP:</label>
+        <input type="text" id="nik_orangtua" name="nik_orangtua" placeholder="Masukkan NIK/Nomor KTP" required>
+
+        <label for="ttl_orangtua">Tempat dan Tanggal Lahir:</label>
+        <input type="text" id="ttl_orangtua" name="ttl_orangtua" placeholder="Masukkan tempat dan tanggal lahir" required>
+
+        <label for="pendidikan_orangtua">Pendidikan Terakhir:</label>
+        <input type="text" id="pendidikan_orangtua" name="pendidikan_orangtua" placeholder="Masukkan pendidikan terakhir" required>
+
+        <label for="pekerjaan_orangtua">Pekerjaan:</label>
+        <input type="text" id="pekerjaan_orangtua" name="pekerjaan_orangtua" placeholder="Masukkan pekerjaan" required>
+
+        <label for="penghasilan_orangtua">Penghasilan:</label>
+        <input type="text" id="penghasilan_orangtua" name="penghasilan_orangtua" placeholder="Masukkan penghasilan" required>
+
+        <label for="alamat_orangtua">Alamat:</label>
+        <textarea id="alamat_orangtua" name="alamat_orangtua" placeholder="Masukkan alamat" rows="4" required></textarea>
+
+        <label for="telepon_orangtua">Nomor Telepon/HP:</label>
+        <input type="tel" id="telepon_orangtua" name="telepon_orangtua" placeholder="Masukkan nomor telepon/HP" required>
+
+        <h3>Data Wali</h3>
+        <label for="nama_wali">Nama Wali:</label>
+        <input type="text" id="nama_wali" name="nama_wali" placeholder="Masukkan nama wali" required>
+
+        <label for="ttl_wali">Tempat dan Tanggal Lahir:</label>
+        <input type="text" id="ttl_wali" name="ttl_wali" placeholder="Masukkan tempat dan tanggal lahir" required>
+
+        <label for="pendidikan_wali">Pendidikan Terakhir:</label>
+        <input type="text" id="pendidikan_wali" name="pendidikan_wali" placeholder="Masukkan pendidikan terakhir" required>
+
+        <label for="penghasilan_wali">Penghasilan:</label>
+        <input type="text" id="penghasilan_wali" name="penghasilan_wali" placeholder="Masukkan penghasilan" required>
+
+        <label for="hubungan_wali">Hubungan dengan Calon Siswa:</label>
+        <input type="text" id="hubungan_wali" name="hubungan_wali" placeholder="Masukkan hubungan" required>
+
+        <label for="telepon_wali">Nomor Telepon/HP:</label>
+        <input type="tel" id="telepon_wali" name="telepon_wali" placeholder="Masukkan nomor telepon/HP" required>
+
+        <h3>Data Sekolah</h3>
+        <label for="nomor_peserta">Nomor Peserta:</label>
+        <input type="text" id="nomor_peserta" name="nomor_peserta" placeholder="Masukkan nomor peserta" required>
+
+        <label for="asal_sekolah">Asal Sekolah:</label>
+        <input type="text" id="asal_sekolah" name="asal_sekolah" placeholder="Masukkan asal sekolah" required>
+
+        <label for="jenis_lulusan">Jenis Lulusan:</label>
+        <input type="text" id="jenis_lulusan" name="jenis_lulusan" placeholder="Masukkan jenis lulusan" required>
+
+        <label for="tahun_kelulusan">Tahun Kelulusan:</label>
+        <input type="number" id="tahun_kelulusan" name="tahun_kelulusan" placeholder="Masukkan tahun kelulusan" required>
+
+        <h3>Jurusan yang Akan Dipilih</h3>
+        <label for="pilihan_jurusan">Pilih Jurusan:</label>
+        <select id="pilihan_jurusan" name="pilihan_jurusan" required>
+            <option value="" disabled selected>Pilih Jurusan</option>
+            <option value="Teknik Pemesinan">Teknik Pemesinan</option>
+            <option value="Teknik Kendaraan Ringan">Teknik Otomotif</option>
+            <option value="Teknik Sepeda Motor">Teknik Sepeda Motor</option>
+            <option value="Teknik Alat Berat">Teknik Alat Berat</option>
+            <option value="Teknik pengelasan">Teknik Pengelasan</option>
+            <option value="Teknik listrik">Teknik Listrik</option>
+            <option value="Teknik Komputer & Jaringan">Komputer & Jaringan</option>
+            <option value="Teknik Audio Video">Audio video</option>
+            <option value="Teknik Elektronika industri">Elektronika industri</option>
+            <option value="Teknik Kimia industri">Kimia industri</option>
+            <option value="Teknik Pendingin Dan Tata udara">Pendingin Dan Tata udara</option>
+            <option value="Teknik Geomatika">Geomatika</option>
+            <option value="Desain Pemodelan Dan Informasi Bangunan">Desain Pemodelan Dan Informasi Bangunan</option>
+            <option value="Teknik Konstruksi Dan Perumahan">Bisnis Kontrusi Dan Properti</option>
+
+
+        </select>
+
+        <div class="submit-button">
+            <button type="submit">Kirim</button>
+        </div>
+        
+        <div class="back-to-index">
+            <button type="button" onclick="window.location.href='index.html'">Kembali ke Halaman Utama</button>
+        </div>
+        
+    </form>
+    
+</section>
